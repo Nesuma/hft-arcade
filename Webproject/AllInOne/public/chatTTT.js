@@ -314,7 +314,6 @@ check = function ()
       && spielfeld[1][i] != 0
       && spielfeld[2][i] != 0)
       {
-        console.log("1");
         won();
        return;
     }
@@ -384,8 +383,6 @@ won = function()
     btn23.disabled = true;
     btn33.disabled = true;
 
-    btn.disabled = true;
-    message.disabled = true;
     // Reset the startClicks
     startClicks = 0;
     //Disable the start buttons

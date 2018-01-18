@@ -212,9 +212,21 @@ td{
   color: black;
 }
 
+#victory{
+  color: #aaa;
+  padding: 14px 0px 0px 0px;
+  margin: 0 20px;
+  z-index: 2;
+  position: relative;
+}
+
 #newDiv{
+  color: #aaa;
+  margin: 0 20px;
+  z-index: 2;
   display: flex;
   justify-content: center;
+  position: relative;
 }
 
 #start{

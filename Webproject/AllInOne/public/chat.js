@@ -487,8 +487,7 @@ won = function()
     document.getElementById('Button5').disabled = true;
     document.getElementById('Button6').disabled = true;
     document.getElementById('Button7').disabled = true;
-    btn.disabled = true;
-    message.disabled = true;
+
     // Reset the startClicks
     startClicks = 0;
 
